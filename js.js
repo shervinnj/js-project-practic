@@ -75,16 +75,25 @@ let qSelector= document.querySelector
 
  //++++++++++++++++++++++++++++++++++++++++
 
- let ul=document.querySelector
- ('ul').firstElementChild;
+//  let ul=document.querySelector
+//  ('ul').firstElementChild;
 
- ul=document.querySelector('ul').lastElementChild;
+//  ul=document.querySelector('ul').lastElementChild;
 
- console.log(ul);
+//  console.log(ul);
 
 
  //ba estefadeh az dastoor ba bacheyeh aval 
  // va bacheyeh akharo entekhab kardim
+
+// let ul=document.querySelector
+// ('ul').childElementCount;
+// console.log(ul);
+
+//ba estefadeh az in dastoore ma mitoonim peyda konim
+//chanta faarzand dareh tagemoom
+
+
 
 
  
