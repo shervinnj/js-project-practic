@@ -102,43 +102,43 @@ let qSelector= document.querySelector
 
 
 
-let hedding=document.createElement
-('h1');
-hedding.getAttribute('h1');
+// let hedding=document.createElement
+// ('h1');
+// hedding.getAttribute('h1');
 
-hedding.setAttribute('shervin','nj');
-
-
-hedding.className='shervin';
-hedding.innerHTML="shervin";
+// hedding.setAttribute('shervin','nj');
 
 
+// hedding.className='shervin';
+// hedding.innerHTML="shervin";
 
 
-console.log(hedding);
+
+
+// console.log(hedding);
 
 
 
 // create attribute va class ba estefadeh az crateElement
 
 
-let rew=document.createElement('h2');
-rew.getAttribute('h2');
-rew.setAttribute('shervin','shervin');
+// let rew=document.createElement('h2');
+// rew.getAttribute('h2');
+// rew.setAttribute('shervin','shervin');
 
-let ul=document.createElement('ul');
-let li1=document.createElement('li');
-let li2=document.createElement('li');
-li1.appendChild(document.createTextNode("shervin"));
-li2.appendChild(document.createTextNode('nj'));
+// let ul=document.createElement('ul');
+// let li1=document.createElement('li');
+// let li2=document.createElement('li');
+// li1.appendChild(document.createTextNode("shervin"));
+// li2.appendChild(document.createTextNode('nj'));
 
-ul.appendChild(li2);
-ul.appendChild(li1);
+// ul.appendChild(li2);
+// ul.appendChild(li1);
 
 
-rew.appendChild(ul);
+// rew.appendChild(ul);
 
-console.log(rew);
+// console.log(rew);
 
 //estefadeh az appendChild yani farzandeh khodesh beshe vasl mikonan hamo
 //be khodesh man dar mesaleh baleh ul vasl kardam be tag h2
@@ -149,22 +149,34 @@ console.log(rew);
 
 
 
-let h4=document.createElement('h4');
+// let h4=document.createElement('h4');
 
-h4.innerHTML=(
-`<ul>
-<li>1</li>
-<li>2</li>
-</ul>`
+// h4.innerHTML=(
+// `<ul>
+// <li>1</li>
+// <li>2</li>
+// </ul>`
 
-)
+// )
 
-console.log(h4);
+// console.log(h4);
 
 //in ba mesaleh balah hich farghi nadareh
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++
 
+let newheading=document.createElement('h1');
+
+newheading.className='title';
+newheading.innerHTML="shervin";
 
 
- 
+let oldheading=document.querySelectorAll('.title')[1];
+let parents=document.querySelector('#book-list');
+
+
+parents.replaceChild(newheading,oldheading);
+
+
+//ma aval miyayim migim kojaro replace konim va sepas tageh father entekhab mikonim
+//va dar line akhar be father migim bia replace kon in jadidaro ba ghadimiyeh
