@@ -195,6 +195,23 @@ father.replaceChild(newrow,oldrow);
 console.log(oldrow);
 
 
+// let newelm=document.createElement('span');
+// newelm.className='name';
+// newelm.innerHTML='naser';
+
+// let oldelm=document.querySelectorAll('.name')[0];
+
+// let popt=document.querySelector('li');
+// popt.replaceChild(newelm,oldelm);
+
+// console.log(popt);
+
+//dar dastooreh balah ma yad gereftim ke hatachetor 
+//be zir shakhehayeh li ham jaygozin konim
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+//+++++++++++++++ hazfe element+++++++++++++++++
+
 let newelm=document.createElement('span');
 newelm.className='name';
 newelm.innerHTML='naser';
@@ -204,7 +221,7 @@ let oldelm=document.querySelectorAll('.name')[0];
 let popt=document.querySelector('li');
 popt.replaceChild(newelm,oldelm);
 
-console.log(popt);
-
-//dar dastooreh balah ma yad gereftim ke hatachetor 
-//be zir shakhehayeh li ham jaygozin konim
+popt.remove();
+//ba estefadeh az dastooreh khali remove ma 
+//mitoonnim koleh ye elementi ke hata
+//sakhte boodimo pak konim
