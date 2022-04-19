@@ -180,3 +180,31 @@ parents.replaceChild(newheading,oldheading);
 
 //ma aval miyayim migim kojaro replace konim va sepas tageh father entekhab mikonim
 //va dar line akhar be father migim bia replace kon in jadidaro ba ghadimiyeh
+
+
+
+let newrow=document.createElement('h1');
+newrow.className='title';
+newrow.innerHTML='asghar';
+
+let oldrow=document.querySelectorAll('.title')[0];
+
+let father=document.querySelector('#page-banner');
+
+father.replaceChild(newrow,oldrow);
+console.log(oldrow);
+
+
+let newelm=document.createElement('span');
+newelm.className='name';
+newelm.innerHTML='naser';
+
+let oldelm=document.querySelectorAll('.name')[0];
+
+let popt=document.querySelector('li');
+popt.replaceChild(newelm,oldelm);
+
+console.log(popt);
+
+//dar dastooreh balah ma yad gereftim ke hatachetor 
+//be zir shakhehayeh li ham jaygozin konim
