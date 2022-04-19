@@ -65,9 +65,26 @@ let qSelector= document.querySelector
 
 //++++++++++++++++++O R +++++++++++++++++++++
 
- let ul=document.querySelector
- ('ul').children[1].children[0].innerHTML;
+//  let ul=document.querySelector
+//  ('ul').children[1].children[0].innerHTML;
 
+
+//  console.log(ul);
+
+ // estefadeh az innerHTML barayeh entekhab tex faezand
+
+ //++++++++++++++++++++++++++++++++++++++++
+
+ let ul=document.querySelector
+ ('ul').firstElementChild;
+
+ ul=document.querySelector('ul').lastElementChild;
 
  console.log(ul);
- //++++++++++++++++++++++++++++++++++++++++
+
+
+ //ba estefadeh az dastoor ba bacheyeh aval 
+ // va bacheyeh akharo entekhab kardim
+
+
+ 
