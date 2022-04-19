@@ -94,10 +94,38 @@ let qSelector= document.querySelector
 //chanta faarzand dareh tagemoom
 
 //+++++++++++++++++++++++++++++++++++++++++++++
-let li=document.querySelector('li').parentElement;
-console.log(li);
+// let li=document.querySelector('li').parentElement;
+// console.log(li);
 
 //ba estefadeh az parentElement ma mitoonim be pedareh li dastresi dashte bashim
+//+++++++++++++++++++++++++++++++++++\
+
+
+
+let hedding=document.createElement
+('h1');
+hedding.getAttribute('h1');
+
+hedding.setAttribute('shervin','nj');
+
+
+hedding.className='shervin';
+hedding.innerHTML="shervin";
+
+
+
+
+console.log(hedding);
+
+
+
+// create attribute va class ba estefadeh az crateElement
+
+
+
+
+
+
 
 
 
