@@ -8,8 +8,8 @@ let pageBanner=document.getElementById
 let title=document.getElementsByClassName
 ("title");
 // barayeh dastresi be elementhayi ke class daran
-let li=document.getElementsByTagName
-('li');
+// let li=document.getElementsByTagName
+// ('li');
 //barayeh dastresi be elementhayei ke tag daran masalan li 
 //+++++++++++++++++++++++++++++++++++++++++++++++++
 // for(let element of li){
@@ -30,9 +30,35 @@ let qSelector= document.querySelector
 
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++
-qSelector=document.querySelectorAll
-('#book-list li .name')[1];
-console.log(qSelector);
+// qSelector=document.querySelectorAll
+// ('#book-list li .name')[1];
+// console.log(qSelector);
 
 //barayeh emtekham zir majmoeyeh li estefadeh mishe make sure we put indeh out the perantecy 
 
+let li=document.querySelector
+('li');
+
+
+let result;
+
+result=li.children[1];
+
+console.log(result);
+
+//dar mesaleh balah ma faghat tag li entekhab kardim
+//va farzandeh avalesho entekhab kardim yani 
+//zir majmoe li na ul 
+
+let ul=document.querySelector
+('ul');
+
+let hame;
+hame=ul.children[2].children[0]
+
+console.log(hame);
+
+// dar mesaleh balah ma ul entekhab kardim 
+// bad farzandesho entekhab kardim ke li hast
+// bad dobareh az ye childeren digeh estefadeh kardim
+//barayeh farzandeh li
