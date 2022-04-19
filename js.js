@@ -93,6 +93,16 @@ let qSelector= document.querySelector
 //ba estefadeh az in dastoore ma mitoonim peyda konim
 //chanta faarzand dareh tagemoom
 
+//+++++++++++++++++++++++++++++++++++++++++++++
+let li=document.querySelector('li').parentElement;
+console.log(li);
+
+//ba estefadeh az parentElement ma mitoonim be pedareh li dastresi dashte bashim
+
+
+
+
+
 
 
 
